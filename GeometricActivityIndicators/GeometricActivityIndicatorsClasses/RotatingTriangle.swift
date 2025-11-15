@@ -14,7 +14,7 @@ struct RotatingTriangle: View {
     
     var body: some View {
         Polygon(sides: 3)                        // Use the custom Polygon shape (triangle)
-            .stroke(Color.mint, lineWidth: 4)  // Draw only the outline with a purple color
+            .stroke(Color.orange, lineWidth: 4)  // Draw only the outline with a purple color
             .frame(width: 90, height: 90)        // Set the size of the triangle
             
             // Rotate from 0° to 360° based on "rotate" state

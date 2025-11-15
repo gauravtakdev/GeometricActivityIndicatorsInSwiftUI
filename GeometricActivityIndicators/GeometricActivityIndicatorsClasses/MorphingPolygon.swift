@@ -19,7 +19,7 @@ struct MorphingPolygon: View {
             .stroke(
                 // Apply a rotating angular gradient outline
                 AngularGradient(
-                    gradient: Gradient(colors: [.pink, .purple, .cyan]),
+                    gradient: Gradient(colors: [.pink, .mint, .orange]),
                     center: .center
                 ),
                 lineWidth: 5
