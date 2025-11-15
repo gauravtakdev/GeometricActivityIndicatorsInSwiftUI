@@ -18,6 +18,7 @@ struct ContentView: View {
                  MorphingPolygon()
                  RotatingSquares()
                  RotatingTriangle()
+                 SpinningSquaresRing()
             }
         }.frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color.black.opacity(0.9))

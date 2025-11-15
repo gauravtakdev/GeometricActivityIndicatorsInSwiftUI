@@ -1,3 +1,11 @@
+//
+//  RotatingTriangle.swift
+//  GeometricActivityIndicators
+//
+//  Created by Gaurav Tak on 15/11/25.
+//
+import SwiftUI
+
 // A simple rotating triangle loader using the Polygon shape (3 sides)
 struct RotatingTriangle: View {
     
@@ -6,8 +14,8 @@ struct RotatingTriangle: View {
     
     var body: some View {
         Polygon(sides: 3)                        // Use the custom Polygon shape (triangle)
-            .stroke(Color.purple, lineWidth: 4)  // Draw only the outline with a purple color
-            .frame(width: 60, height: 60)        // Set the size of the triangle
+            .stroke(Color.mint, lineWidth: 4)  // Draw only the outline with a purple color
+            .frame(width: 90, height: 90)        // Set the size of the triangle
             
             // Rotate from 0° to 360° based on "rotate" state
             .rotationEffect(.degrees(rotate ? 360 : 0))
