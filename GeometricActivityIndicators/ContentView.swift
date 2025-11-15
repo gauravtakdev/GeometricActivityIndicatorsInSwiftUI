@@ -14,7 +14,7 @@ struct ContentView: View {
                 Text("6 Geometric Custom Activity Indicators").bold().foregroundColor(.white).font(.largeTitle).padding(.vertical, 20).multilineTextAlignment(.center)
                     .frame(alignment: .center)
                 
-                
+                 ExpandingHexagon()
             }
         }.frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color.black.opacity(0.9))
