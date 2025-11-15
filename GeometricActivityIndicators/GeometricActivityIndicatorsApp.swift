@@ -11,7 +11,7 @@ import SwiftUI
 struct GeometricActivityIndicatorsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            APICallingViewWithLoadingOverlay()
         }
     }
 }

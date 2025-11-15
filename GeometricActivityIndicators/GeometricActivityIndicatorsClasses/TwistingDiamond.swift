@@ -5,7 +5,6 @@
 //  Created by Gaurav Tak on 15/11/25.
 //
 
-
 import SwiftUI
 
 // A rotating diamond outline that spins continuously

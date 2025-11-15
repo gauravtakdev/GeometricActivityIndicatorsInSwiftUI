@@ -11,18 +11,25 @@ struct ContentView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 40) {
-                Text("6 Geometric Custom Activity Indicators").bold().foregroundColor(.white).font(.largeTitle).padding(.vertical, 10).multilineTextAlignment(.center)
+                Text("6 Stunning Geometric Activity Indicators").bold().foregroundColor(.white).font(.largeTitle).padding(.vertical, 20).multilineTextAlignment(.center)
                     .frame(alignment: .center)
                 
-                 ExpandingHexagon()
-                 MorphingPolygon()
-                 RotatingSquares()
-                 RotatingTriangle()
-                 SpinningSquaresRing()
-                 TwistingDiamond()
+                VStack(spacing: 50) {
+                    HStack(spacing: 100) {
+                        ExpandingHexagon()
+                        MorphingPolygon()
+                        RotatingSquares()
+                    }
+                    HStack(spacing: 100) {
+                        RotatingTriangle()
+                        SpinningSquaresRing()
+                        TwistingDiamond()
+                    }
+                    Spacer().frame(height: 20)
+                }
             }
         }.frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(Color.black.opacity(0.9))
+            .background(Color.black)
     }
 }
 
