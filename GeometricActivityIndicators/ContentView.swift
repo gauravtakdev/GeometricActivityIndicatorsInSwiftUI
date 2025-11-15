@@ -10,11 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ScrollView {
-            VStack {
+            VStack(spacing: 50) {
                 Text("6 Geometric Custom Activity Indicators").bold().foregroundColor(.white).font(.largeTitle).padding(.vertical, 20).multilineTextAlignment(.center)
                     .frame(alignment: .center)
                 
                  ExpandingHexagon()
+                 MorphingPolygon()
             }
         }.frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color.black.opacity(0.9))
