@@ -21,6 +21,9 @@ From rotating triangles to morphing polygons, this repo showcases creative loadi
 
 📦 Drop-in SwiftUI views — easy to use in any iOS app
 
+![SwiftUi_Geometric_Loader_All](https://github.com/user-attachments/assets/acb98fdb-492d-4d8e-9a7f-2e88ef86ac17)
+
+![SwiftUi_Geometric_Loaders_One_by_One](https://github.com/user-attachments/assets/df6714ff-79ba-4138-ac0d-29cfd9297309)
 
 
 **🎯 Why This Repo?**
